@@ -1,0 +1,116 @@
+ul{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.note-div{
+    margin: 20px;
+    list-style-type: none;
+    width: 300px;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 5px;
+    color: #000;
+    background-color: #f0823a;
+}
+
+.note-div h2{
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #000;
+}
+
+.note-div p{
+    font-weight: 500;
+    font-size: 0.9em;
+    overflow-wrap: break-word;
+}
+
+.note{
+    height: 70vh;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.note-item{
+    background-color: #f0823a;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.note-item h2{
+    font-weight: 700;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    margin-bottom: 10px;
+    overflow-wrap: break-word;
+}
+
+.note-item p {
+    font-weight: 500;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.back-link{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.back-link:hover{
+    opacity: 0.8;
+}
+
+.more-link{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.more-link:hover{
+    opacity: .6;
+}
+
+.note-btn{
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.delete-btn, .edit-btn{
+    cursor: pointer;
+}
+
+.delete-btn:hover, .edit-btn:hover{
+    opacity: 0.6;
+}
+
+.add-note-btn{
+    font-size: 3em;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #f0823a;
+    background-color: #fefefe;
+}
+
+.add-note-btn:hover{
+    opacity: 0.8;
+}
+

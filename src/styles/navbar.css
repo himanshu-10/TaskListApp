@@ -1,0 +1,50 @@
+.navbar{
+    height: 10vh;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 3px solid #000000;
+    background-color: #fefefe;
+}
+
+.logo{
+    color: #000000;
+    margin-left: 50px;
+}
+
+.logged-in-links{
+    width: 100%;
+}
+
+.notes-link, .logout-link{
+    color: #000000;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.notes-link:hover, .logout-link:hover{
+    opacity: 0.8;
+}
+
+.notes-link{
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.logout-link{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .navbar{
+        width: 100% !important;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .logout-link{
+        margin-right: 10px;
+    }
+}

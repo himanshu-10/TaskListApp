@@ -1,0 +1,44 @@
+.home-section{
+    height: 70vh;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+}
+
+.home-links{
+    margin-top: 20px;
+}
+
+.register-link, .login-link{
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.register-link{
+    color: #FEFEFE;
+    background-color: #f0823a;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.register-link:hover{
+    opacity: 0.8;
+}
+
+.login-link{
+    color: #000000;
+}
+
+.login-link:hover{
+    color: #ABB2D9;
+}

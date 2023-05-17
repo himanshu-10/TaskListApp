@@ -1,0 +1,71 @@
+.add-form-section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../images/undraw_Add_files_re_v09g.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.add-form{
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    color: #000000;
+    border: 4px solid #000000;
+    border-radius: 5px;
+}
+
+p{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+label{
+    font-size: 1.25em;
+}
+
+.add-form input{
+    padding: 10px 20px;
+    outline: none;
+    border: 3px solid #000000;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+
+.add-form textarea{
+    padding: 10px 30px;
+    outline: none;
+    border: 3px solid #000000;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.add-btn{
+    padding: 10px;
+    background-color: #f0823a;
+    color: #fefefe;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    outline: none;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+.add-btn:hover{
+    opacity: 0.8;
+}
